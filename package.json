@@ -1,0 +1,24 @@
+{
+  "name": "waitwhat",
+  "version": "0.0.0",
+  "description": "Quick investigation into code with Node REPL.",
+  "main": "dist/waitwhat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/danmakenoise/waitwhat.git"
+  },
+  "keywords": [
+    "node",
+    "repl",
+    "debug"
+  ],
+  "author": "Dan Phillips",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/danmakenoise/waitwhat/issues"
+  },
+  "homepage": "https://github.com/danmakenoise/waitwhat#readme"
+}
