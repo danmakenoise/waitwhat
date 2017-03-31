@@ -10,6 +10,8 @@ const waitWhat = (context) => {
       value: context[key],
     });
   });
+
+  throw new Error('WAIT WHAT');
 };
 
 export default waitWhat;
