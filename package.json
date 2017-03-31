@@ -4,7 +4,8 @@
   "description": "Quick investigation into code with Node REPL.",
   "main": "dist/waitwhat.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "babel ./src --out-dir dist",
+    "prepublish": "npm run build",
   },
   "repository": {
     "type": "git",
